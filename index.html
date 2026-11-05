@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hamza Hussain — Web Developer, Digital Marketer and CIT Student from Swabi, Pakistan.">
+  <meta name="theme-color" content="#f7faf8">
+  <title>Hamza Hussain</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Hamza Hussain home">
+      <span class="hh-orbit" aria-hidden="true"><b>HH</b><i></i></span>
+      <span>Hamza <strong>Hussain</strong></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav" id="mainNav" aria-label="Main navigation">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="admin-login-link header-admin-login" id="adminLoginBtn" type="button">Admin Login</button>
+    <button class="theme-toggle" id="themeToggle" aria-label="Switch to dark mode" title="Switch theme">
+      <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+      <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 15.5A8.5 8.5 0 0 1 8.5 3.5 8.5 8.5 0 1 0 20.5 15.5Z"/></svg>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <span class="eyebrow"><i></i> Hello, I'm</span>
+        <h1>Hamza <span>Hussain</span></h1>
+        <h2>Web Developer <em>|</em> Digital Marketer <em>|</em> CIT Student</h2>
+        <p class="hero-intro">I build modern, responsive websites and help businesses grow online through digital marketing, creative design, and smart solutions.</p>
+        <div class="hero-actions">
+          <a class="btn btn-outline" href="#contact"><span>✉</span> Contact Me</a>
+          <button class="prime-button" id="primeButton" type="button"><img src="logo-whatsapp.jpg" alt="" class="button-logo"> Prime Dealer <span>↗</span></button>
+        </div>
+        <div class="social-row" aria-label="Social media">
+          <a class="social whatsapp" href="https://wa.me/923491924999" target="_blank" rel="noopener" aria-label="WhatsApp" title="WhatsApp"><img src="logo-whatsapp.jpg" alt="WhatsApp"></a>
+          <a class="social linkedin" href="https://www.linkedin.com/in/hamza-hussain-852700437/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><img src="logo-linkedin.png" alt="LinkedIn"></a>
+          <a class="social facebook" href="https://www.facebook.com/share/19QgTt6RRK/" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook Page"><img src="logo-facebook.png" alt="Facebook"></a>
+          <a class="social tiktok" href="https://www.tiktok.com/@hamitiktok010?_r=1&_t=ZN-9B8y5Ird6Wc" target="_blank" rel="noopener" aria-label="TikTok" title="TikTok"><img src="logo-tiktok.png" alt="TikTok"></a>
+        </div>
+        <div class="quick-facts">
+          <div><span class="fact-icon">⌖</span><p>Swabi, Khyber Pakhtunkhwa<br>Pakistan</p></div>
+          <div><span class="fact-icon">◇</span><p>CIT (2nd Year)<br>GCT Swabi</p></div>
+          <div><span class="fact-icon">●</span><p>Available for<br>Freelance Work</p></div>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="photo-frame"><img src="profile.jpg" alt="Hamza Hussain"></div>
+        <div class="code-card" aria-hidden="true"><div class="code-dots"><i></i><i></i><i></i></div><pre>const developer = {
+  name: "Hamza Hussain",
+  skills: ["Web", "Design", "Marketing"],
+  mindset: "Always learning"
+};</pre></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+      </div>
+    </section>
+
+    <section class="section content-section" id="about">
+      <div class="section-heading reveal"><h2>About Me</h2></div>
+      <div class="about-card reveal">
+        <div class="about-logo"><span class="hh-orbit large"><b>HH</b><i></i></span></div>
+        <div><h3>I'm Hamza Hussain</h3>
+          <p>I'm a second-year Computer Information Technology (CIT) student at Government College of Technology (GCT), Swabi. I'm interested in web development, digital marketing, and creative design. I enjoy learning new tools and turning ideas into useful digital experiences.</p>
+          <p>My goal is to keep improving my technical skills and create clean, helpful solutions for people and businesses.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section content-section" id="education">
+      <div class="section-heading reveal"><h2>Education</h2></div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><span class="timeline-dot"></span><div class="info-card"><small>Currently studying</small><h3>Computer Information Technology (CIT)</h3><p>Second Year · Government College of Technology (GCT), Swabi</p></div></article>
+        <article class="timeline-item reveal"><span class="timeline-dot"></span><div class="info-card"><small>School</small><h3>GHS Sheikh Dheri</h3><p>School education</p></div></article>
+      </div>
+    </section>
+
+    <section class="section content-section" id="skills">
+      <div class="section-heading reveal"><h2>Skills</h2></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><span class="skill-logo"><img src="logo-web.png" alt="Web Development logo"></span><h3>Web Development</h3><p>HTML · CSS · JavaScript</p></article>
+        <article class="skill-card reveal"><span class="skill-logo"><img src="logo-python.jpg" alt="Python logo"></span><h3>Python</h3><p>Programming fundamentals</p></article>
+        <article class="skill-card reveal"><span class="skill-logo"><img src="logo-canva.jpg" alt="Canva logo"></span><h3>Canva Design</h3><p>Creative graphics and layouts</p></article>
+        <article class="skill-card reveal"><span class="skill-logo"><img src="logo-digital-marketing.png" alt="Digital Marketing logo"></span><h3>Digital Marketing</h3><p>Social media and online growth</p></article>
+        <article class="skill-card reveal"><span class="skill-logo"><img src="logo-office.jpg" alt="Microsoft Office logo"></span><h3>MS Office</h3><p>Word · Excel · PowerPoint</p></article>
+        <article class="skill-card reveal"><span class="skill-logo"><img src="logo-meta.jpg" alt="Meta logo"></span><h3>Meta Ads</h3><p>Social media advertising</p></article>
+      </div>
+    </section>
+
+    <section class="section content-section" id="projects">
+      <div class="section-heading reveal"><h2>Projects</h2></div>
+      <article class="project-card reveal">
+        <div class="project-cover">
+          <div class="project-window"><div class="window-bar"><i></i><i></i><i></i><span>HK Food House</span></div><div class="mock-restaurant"><strong>HK</strong><b>FOOD HOUSE</b><span>Fresh Food · Great Taste</span></div></div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags"><span>Website</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <h3>HK Food House</h3>
+          <p>A restaurant website project with a food-house presentation, menu and prices, restaurant information, and customer contact / WhatsApp ordering access.</p>
+          <ul class="feature-list"><li>Restaurant landing page and branding</li><li>Menu items with prices</li><li>Contact details and WhatsApp order button</li><li>Online project hosted with GitHub Pages</li></ul>
+          <a class="btn btn-primary project-link" href="https://hamzakhanoffical180-sudo.github.io/HK-FOOD-HOUSE/" target="_blank" rel="noopener">View Live Project <span>↗</span></a>
+        </div>
+      </article>
+    </section>
+
+    <section class="section content-section" id="certificates">
+      <div class="section-heading reveal"><h2>Certificates</h2></div>
+      <div class="certificates-grid">
+        <button class="certificate-card reveal" type="button" data-certificate="certificate-digital.jpg" data-title="Digital Skills Certificate">
+          <img src="certificate-digital.jpg" alt="Digital Skills Certificate" loading="lazy"><span class="certificate-caption"><b>Digital Skills Certificate</b><small>AI Tools · Freelancing · Digital Media Marketing</small><em>View Certificate ↗</em></span>
+        </button>
+        <button class="certificate-card reveal" type="button" data-certificate="certificate-excel.jpg" data-title="Microsoft Excel Beginners To Advance">
+          <img src="certificate-excel.jpg" alt="Microsoft Excel Beginners To Advance Certificate" loading="lazy"><span class="certificate-caption"><b>Microsoft Excel</b><small>Beginners To Advance</small><em>View Certificate ↗</em></span>
+        </button>
+        <button class="certificate-card reveal" type="button" data-certificate="certificate-python.jpg" data-title="30 Days Python Micro Course">
+          <img src="certificate-python.jpg" alt="30 Days Python Micro Course Certificate" loading="lazy"><span class="certificate-caption"><b>Python</b><small>30 Days Python Micro Course</small><em>View Certificate ↗</em></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="section content-section contact-section" id="contact">
+      <div class="section-heading reveal"><h2>Contact</h2></div>
+      <div class="contact-grid">
+        <div class="contact-card reveal"><h3>Contact details</h3><a href="mailto:hamzakhanoffical180@gmail.com"><span>✉</span> hamzakhanoffical180@gmail.com</a><a href="https://wa.me/923491924999" target="_blank" rel="noopener"><img class="inline-contact-logo" src="logo-whatsapp.jpg" alt=""> WhatsApp: +92 349 1924999</a><p><span>⌖</span> Swabi, Pakistan</p><a class="btn btn-primary whatsapp-cta" href="https://wa.me/923491924999" target="_blank" rel="noopener">Message on WhatsApp →</a></div>
+        <form class="contact-form reveal" id="contactForm"><label>Your name<input name="name" required placeholder="Enter your name"></label><label>Your email<input name="email" type="email" required placeholder="Enter your email"></label><label>Message<textarea name="message" rows="4" required placeholder="Write your message"></textarea></label><button class="btn btn-primary" type="submit">Send Message →</button><small>The form opens your email app with your message prepared.</small></form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#home"><span class="hh-orbit"><b>HH</b><i></i></span><span>Hamza <strong>Hussain</strong></span></a>
+    <span>© 2026 Hamza Hussain</span>
+  </footer>
+
+  <div class="modal-backdrop" id="primeModal" aria-hidden="true">
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="primeTitle">
+      <button class="modal-close" type="button" aria-label="Close popup" data-close-modal>×</button>
+      <span class="modal-whatsapp-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.7a8.4 8.4 0 0 1-12.4 7.4L3 20.5l1.4-4.9a8.4 8.4 0 1 1 16.1-3.9Z"/><path d="M8.6 8.2c.2-.5.5-.5.8-.5h.5c.2 0 .4.1.5.4l.7 1.7c.1.2 0 .4-.1.6l-.5.6c-.2.2-.2.4-.1.6.5.9 1.2 1.6 2.1 2.1.2.1.4.1.6-.1l.7-.8c.2-.2.4-.2.6-.1l1.6.8c.3.1.4.3.4.5 0 .3-.2 1.1-.7 1.5-.5.5-1.1.7-1.8.6-1-.1-2.2-.6-3.5-1.7-1.5-1.3-2.5-2.9-2.8-3.9-.3-.9 0-1.8.5-2.3Z"/></svg></span>
+      <h2 id="primeTitle">Prime Dealer</h2>
+      <p>Choose where you want to connect.</p>
+      <a class="modal-option channel-option" href="https://whatsapp.com/channel/0029VbES0lXADTOM58G6ec0j" target="_blank" rel="noopener"><span class="option-icon"><img src="logo-whatsapp.jpg" alt=""></span><span><b>WhatsApp Channel</b><small>Follow Prime Dealer updates</small></span><strong>↗</strong></a>
+      <a class="modal-option facebook-option" href="https://www.facebook.com/share/19QgTt6RRK/" target="_blank" rel="noopener"><span class="option-icon"><img src="logo-facebook.png" alt=""></span><span><b>Facebook Page</b><small>Visit our Facebook page</small></span><strong>↗</strong></a>
+    </div>
+  </div>
+
+  <div class="certificate-modal" id="certificateModal" aria-hidden="true">
+    <button type="button" class="certificate-modal-close" aria-label="Close certificate">×</button>
+    <img src="" alt="" id="certificateLarge">
+    <p id="certificateTitle"></p>
+  </div>
+
+  <div class="admin-modal" id="adminLoginModal" aria-hidden="true">
+    <div class="admin-modal-backdrop" data-admin-close></div>
+    <section class="admin-modal-card" role="dialog" aria-modal="true" aria-labelledby="adminModalTitle">
+      <button class="admin-modal-x" type="button" aria-label="Close" data-admin-close>×</button>
+      <span class="admin-modal-kicker">OWNER ACCESS</span>
+      <h2 id="adminModalTitle">Admin Login</h2>
+      <p class="admin-modal-description">Sign in with your owner account to access the portfolio admin area.</p>
+      <div class="admin-feedback" id="adminFeedback" aria-live="polite" hidden><span id="adminFeedbackMark"></span><b id="adminFeedbackText"></b></div>
+      <form id="adminLoginForm">
+        <label for="adminEmail">Email address</label>
+        <input id="adminEmail" name="email" type="email" autocomplete="username" placeholder="Your admin email" required>
+        <label for="adminPassword">Password</label>
+        <input id="adminPassword" name="password" type="password" autocomplete="current-password" placeholder="Your password" required>
+        <p class="admin-login-message" id="adminLoginMessage" role="status" aria-live="polite"></p>
+        <button class="admin-submit" id="adminSubmit" type="submit">Sign in</button>
+      </form>
+      <div class="admin-signed-in" id="adminSignedIn" hidden>
+        <div class="admin-success-mark">✓</div>
+        <h3>Owner Dashboard</h3>
+        <p>Edit the text shown on your portfolio, then save it to publish the changes on this same website link.</p>
+        <div class="admin-management">
+          <h3>Edit Website Text & Details</h3><p class="admin-management-note">Update headings, descriptions, contact information and other portfolio text here.</p><div class="admin-editor" id="adminEditor"></div>
+          <h3>Manage Skills</h3>
+          <form class="admin-item-form" id="skillForm">
+            <input type="hidden" id="skillEditIndex">
+            <input id="skillName" placeholder="Skill name" required>
+            <input id="skillDescription" placeholder="Short description" required>
+            <input id="skillImage" type="url" placeholder="Logo image URL (GitHub raw link)" required>
+            <button class="admin-submit" type="submit">Add / Update Skill</button>
+          </form>
+          <div class="admin-item-list" id="skillList"></div>
+
+          <h3>Manage Projects</h3>
+          <form class="admin-item-form" id="projectForm">
+            <input type="hidden" id="projectEditIndex">
+            <input id="projectName" placeholder="Project name" required>
+            <textarea id="projectDescriptionInput" placeholder="Project description" required></textarea>
+            <input id="projectImage" type="url" placeholder="Project cover image URL (GitHub raw link)">
+            <input id="projectLink" type="url" placeholder="Live project URL" required>
+            <input id="projectTags" placeholder="Technologies, comma separated">
+            <button class="admin-submit" type="submit">Add / Update Project</button>
+          </form>
+          <div class="admin-item-list" id="projectList"></div>
+
+          <h3>Manage Certificates</h3>
+          <form class="admin-item-form" id="certificateForm">
+            <input type="hidden" id="certificateEditIndex">
+            <input id="certificateName" placeholder="Certificate title" required>
+            <input id="certificateDetails" placeholder="Certificate details">
+            <input id="certificateImage" type="url" placeholder="Certificate image URL (GitHub raw link)" required>
+            <button class="admin-submit" type="submit">Add / Update Certificate</button>
+          </form>
+          <div class="admin-item-list" id="certificateList"></div>
+
+          <h3>Manage Education</h3>
+          <form class="admin-item-form" id="educationForm">
+            <input type="hidden" id="educationEditIndex">
+            <input id="educationTitle" placeholder="Qualification / school" required>
+            <input id="educationDetails" placeholder="Education details" required>
+            <input id="educationLabel" placeholder="Small label (e.g. Currently studying)">
+            <button class="admin-submit" type="submit">Add / Update Education</button>
+          </form>
+          <div class="admin-item-list" id="educationList"></div>
+          <p class="admin-management-note">For images, upload the file to your GitHub repository and paste its public raw image URL here. Firebase Storage billing is not required for this method.</p>
+        </div>
+        <div class="admin-save-success" id="adminSaveSuccess" role="status" aria-live="polite" hidden>
+          <span class="admin-save-success-mark">✓</span>
+          <b>Changes Saved Successfully!</b>
+          <small>Your portfolio has been updated.</small>
+        </div>
+        <p class="admin-save-message" id="adminSaveMessage" role="status" aria-live="polite"></p>
+        <div class="admin-action-bar" id="adminActionBar">
+          <button class="admin-submit" id="adminSaveChanges" type="button">✓ Save Changes</button>
+          <button class="admin-logout" id="adminSignOut" type="button">Sign out</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <button id="backTop" class="back-top" aria-label="Back to top">↑</button>
+  <script type="module" src="admin.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
